@@ -20,12 +20,12 @@ lazy_static = "1.4.0"
 log = "0.4.17"
 pretty_env_logger = "0.4.0"
 regex = "1.7.1"
-reqwest = { version = "0.11.13", features = ["json"] }
-serde = { version = "1.0.152", features = ["derive"] }
+reqwest = { workspace = true, features = ["json"] }
+serde = { workspace = true, features = ["derive"] }
 serde_json = "1.0.91"
 thiserror = "1.0.38"
 urlencoding = "2.1.2"
 
 [dev-dependencies]
 mockito = "0.31.1"
-tokio = { version = "1.24.1", features = ["macros"] }
+tokio = { workspace = true, features = ["macros"] }
